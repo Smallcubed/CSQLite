@@ -63,6 +63,7 @@ let features: [CSetting] = [
 //	.define("SQLITE_ENABLE_COLUMN_METADATA"),
 	// https://sqlite.org/fts5.html
 	.define("SQLITE_ENABLE_FTS5"),
+	.define("SQLITE_ENABLE_FTS4"),
 	// https://sqlite.org/geopoly.html
 //	.define("SQLITE_ENABLE_GEOPOLY"),
 //	.define("SQLITE_ENABLE_ICU"),
