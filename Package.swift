@@ -24,7 +24,7 @@ let compileTimeOptions: [CSetting] = [
 	// https://sqlite.org/compile.html#dqs
 	.define("SQLITE_DQS", to: "0"),
 	// https://sqlite.org/compile.html#threadsafe
-	.define("SQLITE_THREADSAFE", to: "0"),
+	.define("SQLITE_THREADSAFE", to: "2"),
 	// https://sqlite.org/compile.html#default_memstatus
 	.define("SQLITE_DEFAULT_MEMSTATUS", to: "0"),
 	// https://sqlite.org/compile.html#default_wal_synchronous
